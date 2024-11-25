@@ -34,3 +34,13 @@ Jovens de 10 a 20 anos que apreciam jogos de ação, sobrevivência e apocalipse
 - **Produção:** 4 meses
 - **Testes e Polimento:** 2 meses
 - **Lançamento:** 1 mês
+## Imagens do Jogo:
+![Imagem do WhatsApp de 2024-11-25 à(s) 16 53 34_39b87736](https://github.com/user-attachments/assets/3f8aefe4-fc14-4e84-9588-8f54768ea55b)
+
+![Imagem do WhatsApp de 2024-11-25 à(s) 16 54 06_08af847f](https://github.com/user-attachments/assets/2d2c7ac6-348e-4557-a651-6037287c0f24)
+
+![Imagem do WhatsApp de 2024-11-25 à(s) 16 55 04_7c2d093d](https://github.com/user-attachments/assets/8f62fee0-5ab8-4db2-b932-93b86b71f1b0)
+
+![Imagem do WhatsApp de 2024-11-25 à(s) 16 56 07_2c7d6980](https://github.com/user-attachments/assets/cc2cb91a-5c82-47e6-896f-cf4dc2e31d66)
+
+

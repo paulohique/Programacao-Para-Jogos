@@ -1,6 +1,6 @@
 extends Node
 
-var maps = ["res://Scenes/main.tscn", "res://Scenes/Level2.tscn", "res://Scenes/Level3.tscn", "res://Scenes/LevelFinal.tscn"]
+var maps = ["res://Scenes/intro.tscn","res://Scenes/main.tscn", "res://Scenes/Level2.tscn", "res://Scenes/Level3.tscn", "res://Scenes/LevelFinal.tscn"]
 var current_map_index = 0
 
 # Variável para controlar se o diálogo já foi concluído
@@ -9,13 +9,13 @@ var dialogo_concluido = false
 # Variável para verificar se o jogo está pausado para diálogo
 var jogo_pausado_para_dialogo = false
 
-func _ready():
+#func _ready():
 	# Inicia o diálogo automaticamente ao começar o jogo
-	iniciar_dialogo("introducao")
+	#iniciar_dialogo("timeline")
 
-func iniciar_dialogo(timeline: String):
-	if not dialogo_concluido:
-		Dialogic.start(timeline)
+#func iniciar_dialogo(timeline: String):
+	#if not dialogo_concluido:
+		#Dialogic.start(timeline)
 		# Pausa o jogo enquanto o diálogo está ativo
 		
 

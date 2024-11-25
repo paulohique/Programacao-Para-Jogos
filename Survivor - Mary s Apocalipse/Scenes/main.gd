@@ -6,7 +6,7 @@ var dialogo_concluido = false
 func _ready():
 	# Inicia o diálogo automaticamente ao começar o jogo
 	if not dialogo_concluido:
-		Dialogic.start("introducao")
+		Dialogic.start("main")
 		# Desabilita inputs do jogo enquanto o diálogo está ativo
 		set_process_input(false)
 		# Congela todos os nós filhos do jogo

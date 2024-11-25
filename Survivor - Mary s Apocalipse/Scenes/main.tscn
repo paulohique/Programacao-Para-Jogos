@@ -4333,7 +4333,7 @@ collision_mask = 2
 player_ui = NodePath("../PlayerUI")
 
 [node name="KeyPickup" parent="." instance=ExtResource("7_qpmsp")]
-position = Vector2(-1364, -685)
+position = Vector2(1258, 662)
 scale = Vector2(3, 3)
 
 [node name="HealthPickup" parent="." instance=ExtResource("6_lr74n")]

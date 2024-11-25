@@ -1,0 +1,20 @@
+[gd_scene load_steps=4 format=3 uid="uid://cqa6hp3m02eqc"]
+
+[ext_resource type="Script" path="res://Scenes/intro.gd" id="1_nn53r"]
+[ext_resource type="VideoStream" path="res://Materials/Vídeo-do-WhatsApp-de-2024-11-25-à_s_-13.53.04_ff169248.ogv" id="1_oslof"]
+[ext_resource type="Script" path="res://Scenes/VideoStreamPlayer.gd" id="3_721bi"]
+
+[node name="CanvasLayer" type="CanvasLayer"]
+script = ExtResource("1_nn53r")
+
+[node name="VideoStreamPlayer" type="VideoStreamPlayer" parent="."]
+offset_right = 1227.0
+offset_bottom = 602.0
+scale = Vector2(0.934026, 1.08129)
+audio_track = 1
+stream = ExtResource("1_oslof")
+volume_db = 6.5
+autoplay = true
+expand = true
+loop = true
+script = ExtResource("3_721bi")

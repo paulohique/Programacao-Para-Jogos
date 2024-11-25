@@ -1,0 +1,16 @@
+[gd_scene load_steps=3 format=3 uid="uid://cqq1t1wu6mwex"]
+
+[ext_resource type="Script" path="res://CanvasLayer.gd" id="1_5c1e5"]
+[ext_resource type="VideoStream" path="res://Materials/finalMary.ogv" id="2_cnc0w"]
+
+[node name="PosCredito" type="CanvasLayer"]
+script = ExtResource("1_5c1e5")
+
+[node name="VideoStreamPlayer" type="VideoStreamPlayer" parent="."]
+offset_right = 1161.0
+offset_bottom = 659.0
+audio_track = 2
+stream = ExtResource("2_cnc0w")
+volume_db = 24.0
+autoplay = true
+expand = true

@@ -17,6 +17,7 @@ var movement_direction: Vector2 = Vector2.ZERO
 var angle
 var has_key = false
 
+
 func _ready():
 	player_ui.set_life_bar_max_value(health_system.base_health)
 	player_ui.set_max_ammo(shooting_system.magazine_size)
@@ -84,8 +85,16 @@ func hide_extract_countdown():
 	player_ui.hide_extract_countdown()
 
 func extract():
-	player_ui.hide_extract_countdown() # Esconde a contagem, se necessário
-	get_tree().change_scene("res://Scenes/Level2.tscn")
+	# Atualiza o índice para o próximo mapa
+	GameManager.current_map_index += 1
+
+	if GameManager.current_map_index < GameManager.maps.size():
+		var next_map_path = GameManager.maps[GameManager.current_map_index]
+		get_tree().change_scene_to_file(next_map_path)  # Corrigido para Godot 4.x
+	else:
+		print("Todos os mapas concluídos!")
+		get_tree().quit()  # Fecha o jogo quando todos os mapas foram concluídos
+
 
 
 func on_died():

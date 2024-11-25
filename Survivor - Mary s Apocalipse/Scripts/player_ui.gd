@@ -58,7 +58,7 @@ func hide_extract_countdown():
 
 func on_game_over(is_game_lost: bool):
 	if is_game_lost:
-		game_over_label.text = "VOCÊ MORREU!!!"
+		game_over_label.text = "YOU HAVE DIED!!!"
 	game_over_container.show()
 
 

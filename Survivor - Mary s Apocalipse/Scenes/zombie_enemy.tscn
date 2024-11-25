@@ -35,6 +35,7 @@ theme = ExtResource("10_svtdj")
 value = 20.0
 show_percentage = false
 script = ExtResource("3_dbmbk")
+metadata/_edit_use_anchors_ = true
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
 material = ExtResource("4_0gn2x")

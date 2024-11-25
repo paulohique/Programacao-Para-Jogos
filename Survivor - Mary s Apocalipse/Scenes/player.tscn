@@ -1,7 +1,7 @@
 [gd_scene load_steps=8 format=3 uid="uid://bjxyci4gifbyb"]
 
-[ext_resource type="Texture2D" uid="uid://d0iq57did5p4r" path="res://Assets/Scharacter.png" id="1_0ic5a"]
 [ext_resource type="Script" path="res://Scripts/player.gd" id="1_36n2m"]
+[ext_resource type="Texture2D" uid="uid://b6jiu5uvikrcy" path="res://Assets/SPRITES/Player_Sprite.png" id="2_n31fh"]
 [ext_resource type="Script" path="res://Scripts/health_system.gd" id="3_k0xct"]
 [ext_resource type="Script" path="res://Scripts/shooting_system.gd" id="4_881yo"]
 [ext_resource type="AudioStream" uid="uid://2wbfu8g7ck1" path="res://Assets/Sound/pistol-shot.mp3" id="5_73kxt"]
@@ -13,7 +13,7 @@ collision_mask = 64
 script = ExtResource("1_36n2m")
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
-texture = ExtResource("1_0ic5a")
+texture = ExtResource("2_n31fh")
 
 [node name="Camera2D" type="Camera2D" parent="."]
 

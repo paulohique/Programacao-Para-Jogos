@@ -13,6 +13,7 @@ func _process(delta):
 	if timer <= 0:
 		# Após 20 segundos, ativa a escuta do clique
 		set_process_input(true)
+		get_tree().quit()
 
 func _input(event):
 	# Verifica se o evento é de pressionar uma tecla ou um botão

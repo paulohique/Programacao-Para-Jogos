@@ -10,7 +10,6 @@ func _ready():
 		# Desabilita inputs do jogo enquanto o diálogo está ativo
 		set_process_input(false)
 		# Congela todos os nós filhos do jogo
-		_congelar_jogo(true)
 
 func _input(event: InputEvent):
 	# Impede processar entradas enquanto o diálogo estiver ativo
@@ -28,18 +27,11 @@ func _process(delta):
 	# Reativa os inputs e descongela o jogo quando o diálogo termina
 	if Dialogic.current_timeline == null and not is_processing_input():
 		set_process_input(true)
-		_congelar_jogo(false)
 		if not dialogo_concluido:
 			print("O diálogo terminou. O jogo pode começar agora!")
 		dialogo_concluido = true
 
-# Função para congelar/descongelar o jogo
-func _congelar_jogo(congelar: bool):
-	for child in get_children():
-		if child.has_method("set_physics_process"):
-			child.set_physics_process(!congelar)
-		if child.has_method("set_process"):
-			child.set_process(!congelar)
+
 
 # Opcional: Chamar esta função ao morrer para evitar reiniciar o diálogo
 func ao_morrer():

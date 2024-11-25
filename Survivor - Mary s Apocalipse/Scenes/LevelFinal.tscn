@@ -1,5 +1,6 @@
-[gd_scene load_steps=11 format=3 uid="uid://d3r8etssav1sx"]
+[gd_scene load_steps=12 format=3 uid="uid://d3r8etssav1sx"]
 
+[ext_resource type="Script" path="res://Scenes/LevelFinal.gd" id="1_6cddj"]
 [ext_resource type="TileSet" uid="uid://cqo3rkfjbv5ef" path="res://Scenes/tilesetCerto/Level2.tres" id="1_s6eos"]
 [ext_resource type="PackedScene" uid="uid://wrc3v2uldu3j" path="res://Scenes/Mary.tscn" id="2_3agqh"]
 [ext_resource type="PackedScene" uid="uid://dmsnvoi6jecmu" path="res://Scenes/zombie_enemy.tscn" id="2_sc6t7"]
@@ -12,6 +13,7 @@
 [ext_resource type="AudioStream" uid="uid://vhniq3lw33e8" path="res://Assets/Sound/pickup.mp3" id="9_ht4c4"]
 
 [node name="main" type="Node"]
+script = ExtResource("1_6cddj")
 
 [node name="TileMap" type="TileMap" parent="." groups=["tilemap"]]
 tile_set = ExtResource("1_s6eos")
@@ -69,7 +71,7 @@ collision_mask = 2
 player_ui = NodePath("../PlayerUI")
 
 [node name="KeyPickup" parent="." instance=ExtResource("6_wxh6e")]
-position = Vector2(-3.99994, -119)
+position = Vector2(848, -595)
 scale = Vector2(3, 3)
 
 [node name="HealthPickup" parent="." instance=ExtResource("7_1qmr0")]

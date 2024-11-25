@@ -1,5 +1,6 @@
-[gd_scene load_steps=10 format=3 uid="uid://cjxo86b0agmqs"]
+[gd_scene load_steps=11 format=3 uid="uid://cjxo86b0agmqs"]
 
+[ext_resource type="Script" path="res://Scenes/Level2.gd" id="1_iooqy"]
 [ext_resource type="TileSet" uid="uid://cqo3rkfjbv5ef" path="res://Scenes/tilesetCerto/Level2.tres" id="1_ksxxl"]
 [ext_resource type="PackedScene" uid="uid://dmsnvoi6jecmu" path="res://Scenes/zombie_enemy.tscn" id="2_w441f"]
 [ext_resource type="PackedScene" uid="uid://bw58hbvgrukc" path="res://Scenes/ammo_pickup.tscn" id="3_7ef8l"]
@@ -11,6 +12,7 @@
 [ext_resource type="AudioStream" uid="uid://vhniq3lw33e8" path="res://Assets/Sound/pickup.mp3" id="9_85ttq"]
 
 [node name="main" type="Node"]
+script = ExtResource("1_iooqy")
 metadata/_edit_horizontal_guides_ = [-671.0]
 
 [node name="TileMap" type="TileMap" parent="." groups=["tilemap"]]

@@ -1,6 +1,7 @@
-[gd_scene load_steps=10 format=3 uid="uid://cg6o56pdij6br"]
+[gd_scene load_steps=11 format=3 uid="uid://cg6o56pdij6br"]
 
 [ext_resource type="TileSet" uid="uid://cqo3rkfjbv5ef" path="res://Scenes/tilesetCerto/Level2.tres" id="1_7j0at"]
+[ext_resource type="Script" path="res://Scenes/Level3.gd" id="1_h0x4o"]
 [ext_resource type="PackedScene" uid="uid://dmsnvoi6jecmu" path="res://Scenes/zombie_enemy.tscn" id="2_fjywf"]
 [ext_resource type="PackedScene" uid="uid://bw58hbvgrukc" path="res://Scenes/ammo_pickup.tscn" id="3_u5n2i"]
 [ext_resource type="PackedScene" uid="uid://bshkyyfn6knhd" path="res://Scenes/player_ui.tscn" id="4_r0a5i"]
@@ -11,6 +12,7 @@
 [ext_resource type="AudioStream" uid="uid://vhniq3lw33e8" path="res://Assets/Sound/pickup.mp3" id="9_6ao0p"]
 
 [node name="main" type="Node"]
+script = ExtResource("1_h0x4o")
 
 [node name="TileMap" type="TileMap" parent="." groups=["tilemap"]]
 tile_set = ExtResource("1_7j0at")

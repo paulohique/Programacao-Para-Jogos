@@ -48,6 +48,7 @@ func _input(event):
 		movement_direction = Vector2.ZERO
 	
 	angle = (get_global_mouse_position() - global_position).angle()
+	
 
 func take_damage(damage: int):
 	health_system.take_damage(damage)

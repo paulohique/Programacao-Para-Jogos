@@ -1,6 +1,7 @@
-[gd_scene load_steps=37 format=3 uid="uid://l46dd8pkkixa"]
+[gd_scene load_steps=38 format=3 uid="uid://l46dd8pkkixa"]
 
 [ext_resource type="Texture2D" uid="uid://c4ypmbh3x8n3d" path="res://Assets/spritesheet_tiles.png" id="1_ao1cb"]
+[ext_resource type="Script" path="res://Scenes/main.gd" id="1_l34et"]
 [ext_resource type="PackedScene" uid="uid://bjxyci4gifbyb" path="res://Scenes/player.tscn" id="2_3wrlq"]
 [ext_resource type="PackedScene" uid="uid://dmsnvoi6jecmu" path="res://Scenes/zombie_enemy.tscn" id="2_b0pai"]
 [ext_resource type="Texture2D" uid="uid://dr07eb0b2aa5t" path="res://Assets/scalezombie.png" id="2_t0eey"]
@@ -4276,6 +4277,8 @@ sources/1 = SubResource("TileSetAtlasSource_ufr4t")
 pattern_0 = SubResource("TileMapPattern_ovm7s")
 
 [node name="main" type="Node"]
+process_mode = 3
+script = ExtResource("1_l34et")
 
 [node name="TileMap" type="TileMap" parent="." groups=["tilemap"]]
 tile_set = SubResource("TileSet_ony66")
@@ -4330,7 +4333,7 @@ collision_mask = 2
 player_ui = NodePath("../PlayerUI")
 
 [node name="KeyPickup" parent="." instance=ExtResource("7_qpmsp")]
-position = Vector2(1128, 671)
+position = Vector2(-1364, -685)
 scale = Vector2(3, 3)
 
 [node name="HealthPickup" parent="." instance=ExtResource("6_lr74n")]

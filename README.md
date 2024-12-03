@@ -46,7 +46,7 @@ Jovens de 10 a 20 anos que apreciam jogos de ação, sobrevivência e apocalipse
 ![Imagem do WhatsApp de 2024-11-25 à(s) 16 56 07_2c7d6980](https://github.com/user-attachments/assets/cc2cb91a-5c82-47e6-896f-cf4dc2e31d66)
 ## Como Executar ?
 - Abrir o Projeto no Godot
-- Baixe os arquivos do projeto no link acima.
+- Baixe os arquivos do projeto no repositório ou no link acima desta página.
 - Extraia o conteúdo do arquivo ZIP.
 - Abra o Godot Engine 4.2.
 - Clique em Import e selecione o arquivo project.godot na pasta extraída.

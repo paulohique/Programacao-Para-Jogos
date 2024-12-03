@@ -10,6 +10,8 @@
 ## Descrição
 "Mary's Apocalipse" é um jogo **Top-Down 2D Shooter** ambientado em um mundo pós-apocalíptico dominado por zumbis. O protagonista, **André**, embarca em uma jornada para encontrar sua esposa **Mary**, enfrentando hordas de zumbis, sobreviventes hostis e outros perigos. O jogo mistura **combate intenso** com uma narrativa emocional de sobrevivência e amor.
 
+## Em caso de erro no dowload
+Link do drive para baixar os arquivos do GODOT 4.2 = https://drive.google.com/file/d/13VLKpVbQwWbFM8hw2cKnW2ez_eWz28cl/view?usp=drive_link
 ## Características
 - **Mecânicas de combate dinâmicas** contra zumbis e sobreviventes.
 - **Progressão de história** com reviravoltas emocionais.

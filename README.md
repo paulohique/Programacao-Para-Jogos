@@ -11,7 +11,7 @@
 "Mary's Apocalipse" é um jogo **Top-Down 2D Shooter** ambientado em um mundo pós-apocalíptico dominado por zumbis. O protagonista, **André**, embarca em uma jornada para encontrar sua esposa **Mary**, enfrentando hordas de zumbis, sobreviventes hostis e outros perigos. O jogo mistura **combate intenso** com uma narrativa emocional de sobrevivência e amor.
 
 ## Em caso de erro no dowload
-Link do drive para baixar os arquivos do GODOT 4.2 = https://drive.google.com/file/d/13VLKpVbQwWbFM8hw2cKnW2ez_eWz28cl/view?usp=drive_link
+Link do drive para baixar os arquivos do GODOT 4.2: https://drive.google.com/file/d/13VLKpVbQwWbFM8hw2cKnW2ez_eWz28cl/view?usp=drive_link
 ## Características
 - **Mecânicas de combate dinâmicas** contra zumbis e sobreviventes.
 - **Progressão de história** com reviravoltas emocionais.
@@ -44,5 +44,21 @@ Jovens de 10 a 20 anos que apreciam jogos de ação, sobrevivência e apocalipse
 ![Imagem do WhatsApp de 2024-11-25 à(s) 16 55 04_7c2d093d](https://github.com/user-attachments/assets/8f62fee0-5ab8-4db2-b932-93b86b71f1b0)
 
 ![Imagem do WhatsApp de 2024-11-25 à(s) 16 56 07_2c7d6980](https://github.com/user-attachments/assets/cc2cb91a-5c82-47e6-896f-cf4dc2e31d66)
+##🛠 Como Executar ?
+Abrir o Projeto no Godot
+Baixe os arquivos do projeto no link acima.
+Extraia o conteúdo do arquivo ZIP.
+Abra o Godot Engine 4.2.
+Clique em Import e selecione o arquivo project.godot na pasta extraída.
+Clique em Open e depois em Play para executar o jogo no editor.
+Usar o Executável
+Dê um duplo clique no arquivo executável correspondente ao seu sistema operacional para iniciar o jogo (recomendamos .EXE).
+##📝 Observações !
+Certifique-se de que possui a versão 4.2 do Godot instalada para abrir o projeto.
+O jogo foi desenvolvido para rodar em sistemas operacionais modernos, como Windows e Linux.
+📧 Contato
+Caso tenha dúvidas, sugestões ou queira contribuir, sinta-se à vontade para abrir uma issue neste repositório.
+
+Agradecemos por jogar Mary's Apocalypse! 🚀🎮
 
 
